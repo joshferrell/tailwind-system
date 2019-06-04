@@ -1,3 +1,11 @@
+const order: any = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+order.first = '-9999';
+order.last = '9999';
+order.none = '0';
+
+const zIndex: any = [0, 10, 20, 30, 40, 50];
+zIndex.auto = 'auto';
+
 export default {
     flex: {
         '1': '1 1 0%',
@@ -24,30 +32,6 @@ export default {
         'right-top': 'right top',
         top: 'top',
     },
-    order: {
-        first: '-9999',
-        last: '9999',
-        none: '0',
-        '1': '1',
-        '2': '2',
-        '3': '3',
-        '4': '4',
-        '5': '5',
-        '6': '6',
-        '7': '7',
-        '8': '8',
-        '9': '9',
-        '10': '10',
-        '11': '11',
-        '12': '12',
-    },
-    zIndex: {
-        auto: 'auto',
-        '0': '0',
-        '10': '10',
-        '20': '20',
-        '30': '30',
-        '40': '40',
-        '50': '50',
-    }
+    order,
+    zIndex
 }

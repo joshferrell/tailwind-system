@@ -1,3 +1,6 @@
+const borderWidth: any = [0, '2px', '4px', '8px'];
+borderWidth.default = '1px';
+
 export default {
     backgroundPosition: {
         bottom: 'bottom',
@@ -43,31 +46,19 @@ export default {
         disc: 'disc',
         decimal: 'decimal'
     },
-    opacity: {
-        '0': '0',
-      '25': '0.25',
-      '50': '0.5',
-      '75': '0.75',
-      '100': '1'
-    },
+    opacity: [0, 0.25, 0.5, 0.75, 1],
     stroke: {
         current: 'currentColor',
         // TODO: color object
     },
     borderRadius: {
         none: '0',
-      sm: '0.125rem',
-      default: '0.25rem',
-      lg: '0.5rem',
-      full: '9999px'
+        sm: '0.125rem',
+        default: '0.25rem',
+        lg: '0.5rem',
+        full: '9999px'
     },
-    borderWidth: {
-        default: '1px',
-        '0': '0',
-        '2': '2px',
-        '4': '4px',
-        '8': '8px'
-    },
+    borderWidth: borderWidth,
     fill: {
         current: 'currentColor',
         // TODO: color object
