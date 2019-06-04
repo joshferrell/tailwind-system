@@ -1,0 +1,19 @@
+{
+  "name": "tailwind-system",
+  "version": "1.0.0",
+  "description": "Tailwind implementation using system components",
+  "main": "dist/index.js",
+  "author": "Josh Ferrell",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-typescript": "^7.3.3",
+    "styled-system": "^5.0.5",
+    "typescript": "^3.5.1"
+  }
+}
