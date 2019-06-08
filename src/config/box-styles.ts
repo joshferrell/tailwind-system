@@ -47,10 +47,6 @@ export default {
         decimal: 'decimal'
     },
     opacity: [0, 0.25, 0.5, 0.75, 1],
-    stroke: {
-        current: 'currentColor',
-        // TODO: color object
-    },
     borderRadius: {
         none: '0',
         sm: '0.125rem',
@@ -58,12 +54,10 @@ export default {
         lg: '0.5rem',
         full: '9999px'
     },
-    borderWidth: borderWidth,
-    fill: {
-        current: 'currentColor',
-        // TODO: color object
-    }
+    borderWidth: borderWidth
 }
 
 // TODO: backgroundColor
 // TODO: borderColor
+// TODO: stroke
+// TODO: fill
