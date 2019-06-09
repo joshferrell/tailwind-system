@@ -18,7 +18,5 @@ There are some minor differences between this library and tailwind. First, inste
 ### Missing Features
 Another difference would be that _all_ features in tailwind, may not exist in this library. [These things take time](https://www.youtube.com/watch?v=0d6yBHDvKUw), and if there is a feature that hasn't been issued yet, [create an issue]() and we'll get on it.
 
-## Basic Example
-
 // TODO: basic example
-use tailwinds main example on their website.
+// TODO: add breakpoints
