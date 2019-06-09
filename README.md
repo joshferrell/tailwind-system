@@ -4,6 +4,7 @@
 </h1>
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/joshferrell/tailwind-system.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/joshferrell/tailwind-system.svg?branch=master)](https://travis-ci.org/joshferrell/tailwind-system)
 
 This project is an implementation of [Tailwind CSS](https://tailwindcss.com/) using [Styled System](https://styled-system.com/). The reasoning behind this was that some may prefer using styled system to apply their utility styles, versus class names which can be forgotten by other developers. If your spacing system is available to devs via a prop, they are more likely to use that than an inline style.
 
