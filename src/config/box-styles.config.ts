@@ -56,8 +56,3 @@ export default {
     },
     borderWidth: borderWidth
 }
-
-// TODO: backgroundColor
-// TODO: borderColor
-// TODO: stroke
-// TODO: fill

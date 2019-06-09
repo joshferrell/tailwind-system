@@ -1,4 +1,4 @@
-export const baseColors = {
+export default {
     transparent: 'transparent',
     positive: '#000',
     negative: '#fff',

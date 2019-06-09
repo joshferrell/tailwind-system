@@ -1,4 +1,7 @@
-# Tailwind System
+<h1 align="center">
+    <img src="./docs/logo.png" alt="Tailwind System logo" />
+    <div>Tailwind System</div>
+</h1>
 
 This project is an implementation of [Tailwind CSS](https://tailwindcss.com/) using [Styled System](https://styled-system.com/). The reasoning behind this was that some may prefer using styled system to apply their utility styles, versus class names which can be forgotten by other developers. If your spacing system is available to devs via a prop, they are more likely to use that than an inline style.
 

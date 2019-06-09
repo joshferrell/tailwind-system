@@ -15,3 +15,8 @@ type OpacityTypes = 0 | 1 | 2 | 3 | 4;
 type BorderRadiusTypes = 'none' | 'sm' | 'default' | 'lg' | 'full';
 
 type BorderWidthTypes = 0 | 1 | 2 | 3 | 'default';
+
+// TODO: backgroundColor
+// TODO: borderColor
+// TODO: stroke
+// TODO: fill

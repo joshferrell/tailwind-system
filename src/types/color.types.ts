@@ -1,4 +1,4 @@
-type ColorTypes = 'transparent' | 
+export type ColorTypes = 'transparent' | 
     'positive' | 
     'negative' | 
     'primary.l6' | 
