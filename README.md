@@ -8,6 +8,9 @@ This project is an implementation of [Tailwind CSS](https://tailwindcss.com/) us
 Another benefit is that class names are unknown to your IDE. Whereas what utilities you have available on your component will be listed as props that are available and auto completed since this project uses typescript. No more having to switch back and forth between api documentation. Once your component is made, you can simply see what the IDE autocompletes to.
 
 ## How to use
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/joshferrell/tailwind-system.svg)](https://greenkeeper.io/)
+
 Styled System is built on CSS-in-JS libraries, so installing a implmentation of those things is required to use this library. See [Emotion](https://github.com/emotion-js/emotion) or [Styled Components](https://github.com/styled-components/styled-components) for possible implemntations of this. You might also want to check out the [getting started guide](https://styled-system.com/#getting-started) from styled-system to get more information and also create your own custom systems.
 
 ## Differences of Tailwind
