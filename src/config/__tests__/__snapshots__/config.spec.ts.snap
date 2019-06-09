@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tailwind theme configurations should have box styles 1`] = `
+Object {
+  "backgroundPosition": Object {
+    "bottom": "bottom",
+    "center": "center",
+    "left": "left",
+    "left-bottom": "left bottom",
+    "left-top": "left top",
+    "right": "right",
+    "right-bottom": "right bottom",
+    "right-top": "right top",
+    "top": "top",
+  },
+  "backgroundSize": Object {
+    "auto": "auto",
+    "contain": "contain",
+    "cover": "cover",
+  },
+  "borderRadius": Object {
+    "default": "0.25rem",
+    "full": "9999px",
+    "lg": "0.5rem",
+    "none": "0",
+    "sm": "0.125rem",
+  },
+  "borderWidth": Array [
+    0,
+    "2px",
+    "4px",
+    "8px",
+  ],
+  "boxShadow": Object {
+    "2xl": "0 25px 50px -12px rgba(0, 0, 0, 0.25)",
+    "default": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+    "inner": "inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)",
+    "lg": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+    "md": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+    "none": "none",
+    "outline": "0 0 0 3px rgba(66, 153, 225, 0.5)",
+    "xl": "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
+  },
+  "cursor": Object {
+    "auto": "auto",
+    "default": "default",
+    "move": "move",
+    "not-allowed": "not-allowed",
+    "pointer": "pointer",
+    "text": "text",
+    "wait": "wait",
+  },
+  "inset": Object {
+    "0": "0",
+    "auto": "auto",
+  },
+  "listStyleType": Object {
+    "decimal": "decimal",
+    "disc": "disc",
+    "none": "none",
+  },
+  "opacity": Array [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1,
+  ],
+}
+`;
