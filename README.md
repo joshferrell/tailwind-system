@@ -23,3 +23,5 @@ Another difference would be that _all_ features in tailwind, may not exist in th
 
 // TODO: basic example
 // TODO: add breakpoints
+// TODO: add linting and prettier
+// TODO: add automated deploy to travis

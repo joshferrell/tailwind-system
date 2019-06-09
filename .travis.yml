@@ -1,0 +1,9 @@
+language: node_js
+
+jobs:
+  include:
+    - stage: Test
+      name: "Type Check"
+      script: yarn type-check
+    - script: yarn test
+      name: "Unit Tests"

@@ -12,7 +12,9 @@
     "build": "npm run build:types && npm run build:js",
     "build:types": "tsc --emitDeclarationOnly",
     "build:js": "babel src --out-dir lib --extensions \".ts,.tsx\" --source-maps inline",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "test": "jest",
+    "test:watch": "npm run test --watch"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
@@ -21,8 +23,10 @@
     "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-typescript": "^7.3.3",
+    "@types/jest": "^24.0.13",
     "@types/styled-system": "^4.2.1",
     "csstype": "^2.6.5",
+    "jest": "^24.8.0",
     "styled-system": "^5.0.5",
     "typescript": "^3.5.1"
   }
