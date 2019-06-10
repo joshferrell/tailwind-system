@@ -102,8 +102,3 @@ export default {
         900: '#702459'
     }
 };
-
-
-// TODO: backgroundColor
-// TODO: borderColor
-// TODO: textColor

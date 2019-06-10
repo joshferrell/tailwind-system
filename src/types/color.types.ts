@@ -1,3 +1,6 @@
+import { ResponsiveValue } from 'styled-system';
+import CSS from 'csstype';
+
 export type ColorTypes = 'transparent' | 
     'positive' | 
     'negative' | 
@@ -82,3 +85,18 @@ export type ColorTypes = 'transparent' |
     'highlight.primary' | 
     'highlight.dark1' | 
     'highlight.dark2';
+
+export interface ColorProps<TLength = ColorTypes> {
+    color?: ResponsiveValue<TLength>;
+    textColor?: ResponsiveValue<TLength>;
+    backgroundColor?: ResponsiveValue<CSS.BackgroundProperty<TLength>>;
+    bg?: ResponsiveValue<CSS.BackgroundProperty<TLength>>;
+}
+
+export interface StrokeProps<TLength = ColorTypes> {
+    stroke?: ResponsiveValue<TLength>;
+}
+
+export interface FillProps<TLength = ColorTypes> {
+    fill?: ResponsiveValue<TLength>;
+}

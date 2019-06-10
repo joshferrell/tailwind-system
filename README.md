@@ -22,7 +22,13 @@ There are some minor differences between this library and tailwind. First, inste
 ### Missing Features
 Another difference would be that _all_ features in tailwind, may not exist in this library. [These things take time](https://www.youtube.com/watch?v=0d6yBHDvKUw), and if there is a feature that hasn't been issued yet, [create an issue]() and we'll get on it.
 
-// TODO: basic example
-// TODO: add breakpoints
-// TODO: add linting and prettier
-// TODO: add automated deploy to travis
+### TODO
+- [ ] Create a basic example
+- [ ] Add type documentation like simple js
+- [ ] Add linting and prettier
+- [ ] Add breakpoint definitions
+- [ ] Add linting and prettier
+- [ ] Add automated deploy to travis
+- [ ] Create unit tests for config files
+- [ ] Create unit tests for style implementation
+- [ ] Remove type defs from code coverage
