@@ -27,7 +27,7 @@
     "@types/styled-system": "^4.2.1",
     "csstype": "^2.6.5",
     "jest": "^24.8.0",
-    "styled-system": "^5.0.5",
+    "styled-system": "^5.0.15",
     "typescript": "^3.5.1"
   }
 }
