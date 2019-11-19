@@ -24,7 +24,7 @@
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-typescript": "^7.3.3",
     "@types/jest": "^24.0.13",
-    "@types/styled-system": "^4.2.1",
+    "@types/styled-system": "^5.1.4",
     "csstype": "^2.6.5",
     "jest": "^24.8.0",
     "styled-system": "^5.0.5",
