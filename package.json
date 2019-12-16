@@ -25,7 +25,7 @@
     "@babel/preset-typescript": "^7.3.3",
     "@types/jest": "^24.0.13",
     "@types/styled-system": "^4.2.1",
-    "csstype": "^2.6.5",
+    "csstype": "^2.6.8",
     "jest": "^24.8.0",
     "styled-system": "^5.0.5",
     "typescript": "^3.5.1"
