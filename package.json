@@ -23,7 +23,7 @@
     "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-typescript": "^7.3.3",
-    "@types/jest": "^24.0.13",
+    "@types/jest": "^25.2.1",
     "@types/styled-system": "^4.2.1",
     "csstype": "^2.6.5",
     "jest": "^24.8.0",
