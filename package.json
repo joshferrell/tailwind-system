@@ -22,7 +22,7 @@
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/plugin-proposal-object-rest-spread": "^7.9.5",
     "@babel/preset-env": "^7.9.5",
-    "@babel/preset-typescript": "^7.3.3",
+    "@babel/preset-typescript": "^7.9.0",
     "@types/jest": "^24.0.13",
     "@types/styled-system": "^4.2.1",
     "csstype": "^2.6.5",
